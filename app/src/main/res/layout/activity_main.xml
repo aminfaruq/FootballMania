@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_logo_football_mania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:textColor="#fff"
+        android:background="@drawable/bg_button_start"
+        android:layout_marginTop="30dp"
+        android:text="START"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
